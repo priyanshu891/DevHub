@@ -73,9 +73,9 @@ try{
 	out.print("<tr><td colspan=6>");
 	%>
 									<div class="smalltext">|
-										<a href="updatebug.jsp?bugid=<%=rs.getString(" bugid ")%>">Update Bug</a> |
-										<a href="del.jsp?bugid=<%=rs.getString(" bugid ")%>">Delete</a> |
-										<a href="bugdetail1.jsp?bugid=<%=rs.getString(" bugid ")%>">Detail</a> |</div>
+										<a href="updatebug.jsp?bugid=<%=rs.getString("bugid")%>">Update Bug</a> |
+										<a href="del.jsp?bugid=<%=rs.getString("bugid")%>">Delete</a> |
+										<a href="bugdetail1.jsp?bugid=<%=rs.getString("bugid")%>">Detail</a> |</div>
 									<%
 	out.print("</td></tr>");
 	}
